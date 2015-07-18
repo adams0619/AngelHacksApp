@@ -14,6 +14,10 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, UISearchBa
 
     @IBOutlet weak var mapView: MKMapView!
     
+    
+    var mapAnnoations: [PinAnnotation] = []
+
+    
     var locationManager = CLLocationManager()
 
     
@@ -44,7 +48,25 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, UISearchBa
         mapView.setRegion(region, animated: true)
         
         locationManager.stopUpdatingLocation()
+                
+    }
+    
+    func mapView(mapView: MKMapView!, viewForAnnotation annotation: MKAnnotation!) -> MKAnnotationView! {
+        let annotation1 = self.mapAnnoations[0]
+        let identifier = "pin"
+        var view: MKPinAnnotationView
+        if let dequeuedView = mapView.dequeueReusableAnnotationViewWithIdentifier(identifier) as? MKPinAnnotationView{
+            dequeuedView.annotation = annotation1
+            view = dequeuedView
+        } else {
+            view = MKPinAnnotationView(annotation: annotation1, reuseIdentifier:identifier)
+            view.canShowCallout = true
+            view.calloutOffset = CGPoint(x: -5, y: 5)
+            view.pinColor = MKPinAnnotationColor.Purple
+            
+        }
         
+        return view
     }
     
 

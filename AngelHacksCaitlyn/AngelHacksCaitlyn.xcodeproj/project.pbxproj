@@ -16,6 +16,8 @@
 		1C2A5BEB1B5AEC1D00E8D410 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5BEA1B5AEC1D00E8D410 /* MapViewController.swift */; };
 		1C2A5BED1B5AEC3A00E8D410 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2A5BEC1B5AEC3A00E8D410 /* MapKit.framework */; };
 		1C2A5BEF1B5AEC4000E8D410 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2A5BEE1B5AEC4000E8D410 /* CoreLocation.framework */; };
+		1C2A5BF61B5AF3C500E8D410 /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5BF51B5AF3C500E8D410 /* PinAnnotation.swift */; };
+		CD73A14668966D885219BE2E /* Pods_AngelHacksCaitlyn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384331175755F61F75F0E83B /* Pods_AngelHacksCaitlyn.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		1C2A5BEA1B5AEC1D00E8D410 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
 		1C2A5BEC1B5AEC3A00E8D410 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1C2A5BEE1B5AEC4000E8D410 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1C2A5BF51B5AF3C500E8D410 /* PinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
+		25B0015A37F0052633FBB9DB /* Pods-AngelHacksCaitlyn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngelHacksCaitlyn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AngelHacksCaitlyn/Pods-AngelHacksCaitlyn.debug.xcconfig"; sourceTree = "<group>"; };
+		384331175755F61F75F0E83B /* Pods_AngelHacksCaitlyn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngelHacksCaitlyn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F9973A383485B7774A5850 /* Pods-AngelHacksCaitlyn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngelHacksCaitlyn.release.xcconfig"; path = "Pods/Target Support Files/Pods-AngelHacksCaitlyn/Pods-AngelHacksCaitlyn.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 			files = (
 				1C2A5BEF1B5AEC4000E8D410 /* CoreLocation.framework in Frameworks */,
 				1C2A5BED1B5AEC3A00E8D410 /* MapKit.framework in Frameworks */,
+				CD73A14668966D885219BE2E /* Pods_AngelHacksCaitlyn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,10 +74,11 @@
 		1C2A5BBA1B5AE96600E8D410 = {
 			isa = PBXGroup;
 			children = (
-				1C2A5BF01B5AEC6800E8D410 /* Frameworks */,
 				1C2A5BC51B5AE96600E8D410 /* AngelHacksCaitlyn */,
+				1C2A5BF01B5AEC6800E8D410 /* Frameworks */,
 				1C2A5BDB1B5AE96600E8D410 /* AngelHacksCaitlynTests */,
 				1C2A5BC41B5AE96600E8D410 /* Products */,
+				9D1FBC6A62694ECBE1A1A0FB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +94,7 @@
 		1C2A5BC51B5AE96600E8D410 /* AngelHacksCaitlyn */ = {
 			isa = PBXGroup;
 			children = (
+				1C2A5BF41B5AF3AE00E8D410 /* Model */,
 				1C2A5BF11B5AEC9200E8D410 /* ViewControllers */,
 				1C2A5BC81B5AE96600E8D410 /* AppDelegate.swift */,
 				1C2A5BCC1B5AE96600E8D410 /* Main.storyboard */,
@@ -126,6 +135,7 @@
 			children = (
 				1C2A5BEC1B5AEC3A00E8D410 /* MapKit.framework */,
 				1C2A5BEE1B5AEC4000E8D410 /* CoreLocation.framework */,
+				384331175755F61F75F0E83B /* Pods_AngelHacksCaitlyn.framework */,
 			);
 			name = Frameworks;
 			path = AngelHacksCaitlyn/Frameworks;
@@ -140,6 +150,23 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		1C2A5BF41B5AF3AE00E8D410 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A5BF51B5AF3C500E8D410 /* PinAnnotation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D1FBC6A62694ECBE1A1A0FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25B0015A37F0052633FBB9DB /* Pods-AngelHacksCaitlyn.debug.xcconfig */,
+				E6F9973A383485B7774A5850 /* Pods-AngelHacksCaitlyn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C2A5BE21B5AE96600E8D410 /* Build configuration list for PBXNativeTarget "AngelHacksCaitlyn" */;
 			buildPhases = (
+				9F565566D23C8FEE780C80C4 /* Check Pods Manifest.lock */,
 				1C2A5BBF1B5AE96600E8D410 /* Sources */,
 				1C2A5BC01B5AE96600E8D410 /* Frameworks */,
 				1C2A5BC11B5AE96600E8D410 /* Resources */,
+				8B94A7CCAA81D3E754AFB433 /* Embed Pods Frameworks */,
+				34F4558D50D6033C32E8CEE5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,11 +265,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34F4558D50D6033C32E8CEE5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AngelHacksCaitlyn/Pods-AngelHacksCaitlyn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B94A7CCAA81D3E754AFB433 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AngelHacksCaitlyn/Pods-AngelHacksCaitlyn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F565566D23C8FEE780C80C4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C2A5BBF1B5AE96600E8D410 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C2A5BF61B5AF3C500E8D410 /* PinAnnotation.swift in Sources */,
 				1C2A5BE91B5AEBCF00E8D410 /* TabBarViewController.swift in Sources */,
 				1C2A5BC91B5AE96600E8D410 /* AppDelegate.swift in Sources */,
 				1C2A5BEB1B5AEC1D00E8D410 /* MapViewController.swift in Sources */,
@@ -369,6 +448,7 @@
 		};
 		1C2A5BE31B5AE96600E8D410 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B0015A37F0052633FBB9DB /* Pods-AngelHacksCaitlyn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AngelHacksCaitlyn/Info.plist;
@@ -379,6 +459,7 @@
 		};
 		1C2A5BE41B5AE96600E8D410 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F9973A383485B7774A5850 /* Pods-AngelHacksCaitlyn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AngelHacksCaitlyn/Info.plist;
@@ -440,6 +521,7 @@
 				1C2A5BE41B5AE96600E8D410 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C2A5BE51B5AE96600E8D410 /* Build configuration list for PBXNativeTarget "AngelHacksCaitlynTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +530,7 @@
 				1C2A5BE71B5AE96600E8D410 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
