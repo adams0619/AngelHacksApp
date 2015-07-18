@@ -39,15 +39,15 @@
 		1C2A5BD21B5AE96600E8D410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1C2A5BD81B5AE96600E8D410 /* AngelHacksCaitlynTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngelHacksCaitlynTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2A5BDD1B5AE96600E8D410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C2A5BDE1B5AE96600E8D410 /* AngelHacksCaitlynTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngelHacksCaitlynTests.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
+ 		1C2A5BD81B5AE96600E8D410 /* AngelHacksCaitlynTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngelHacksCaitlynTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+ 		1C2A5BDD1B5AE96600E8D410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+ 		1C2A5BDE1B5AE96600E8D410 /* AngelHacksCaitlynTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngelHacksCaitlynTests.swift; sourceTree = "<group>"; };
 		1C2A5BE81B5AEBCF00E8D410 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		1C2A5BEA1B5AEC1D00E8D410 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
->>>>>>> 12e9ba12d733150b3be7144dd0f905b7d3d79b76
-		1C2A5BEC1B5AEC3A00E8D410 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		1C2A5BEE1B5AEC4000E8D410 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		1C2A5BF51B5AF3C500E8D410 /* PinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
+ 		1C2A5BEC1B5AEC3A00E8D410 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+ 		1C2A5BEE1B5AEC4000E8D410 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+ 		1C2A5BF51B5AF3C500E8D410 /* PinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
+
 		25B0015A37F0052633FBB9DB /* Pods-AngelHacksCaitlyn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngelHacksCaitlyn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AngelHacksCaitlyn/Pods-AngelHacksCaitlyn.debug.xcconfig"; sourceTree = "<group>"; };
 		384331175755F61F75F0E83B /* Pods_AngelHacksCaitlyn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngelHacksCaitlyn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F292F01B5AF9AD0081D8B7 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
