@@ -40,8 +40,8 @@
 		1C2A5BD81B5AE96600E8D410 /* AngelHacksCaitlynTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngelHacksCaitlynTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2A5BDD1B5AE96600E8D410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C2A5BDE1B5AE96600E8D410 /* AngelHacksCaitlynTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngelHacksCaitlynTests.swift; sourceTree = "<group>"; };
-		1C2A5BE81B5AEBCF00E8D410 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = ../TabBarViewController.swift; sourceTree = "<group>"; };
-		1C2A5BEA1B5AEC1D00E8D410 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
+		1C2A5BE81B5AEBCF00E8D410 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		1C2A5BEA1B5AEC1D00E8D410 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		1C2A5BEC1B5AEC3A00E8D410 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1C2A5BEE1B5AEC4000E8D410 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		1C2A5BF51B5AF3C500E8D410 /* PinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
@@ -94,7 +94,8 @@
 		1C2A5BC51B5AE96600E8D410 /* AngelHacksCaitlyn */ = {
 			isa = PBXGroup;
 			children = (
-				1C2A5BF71B5AF8F600E8D410 /* ViewControllers */,
+				1C2A5BEA1B5AEC1D00E8D410 /* MapViewController.swift */,
+				1C2A5BE81B5AEBCF00E8D410 /* TabBarViewController.swift */,
 				1C2A5BF41B5AF3AE00E8D410 /* Model */,
 				1C2A5BC81B5AE96600E8D410 /* AppDelegate.swift */,
 				1C2A5BCC1B5AE96600E8D410 /* Main.storyboard */,
@@ -147,15 +148,6 @@
 				1C2A5BF51B5AF3C500E8D410 /* PinAnnotation.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		1C2A5BF71B5AF8F600E8D410 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				1C2A5BE81B5AEBCF00E8D410 /* TabBarViewController.swift */,
-				1C2A5BEA1B5AEC1D00E8D410 /* MapViewController.swift */,
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		9D1FBC6A62694ECBE1A1A0FB /* Pods */ = {
