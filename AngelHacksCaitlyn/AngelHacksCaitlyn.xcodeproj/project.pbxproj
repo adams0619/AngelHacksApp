@@ -94,8 +94,8 @@
 		1C2A5BC51B5AE96600E8D410 /* AngelHacksCaitlyn */ = {
 			isa = PBXGroup;
 			children = (
+				1C2A5BF71B5AF8F600E8D410 /* ViewControllers */,
 				1C2A5BF41B5AF3AE00E8D410 /* Model */,
-				1C2A5BF11B5AEC9200E8D410 /* ViewControllers */,
 				1C2A5BC81B5AE96600E8D410 /* AppDelegate.swift */,
 				1C2A5BCC1B5AE96600E8D410 /* Main.storyboard */,
 				1C2A5BCF1B5AE96600E8D410 /* Images.xcassets */,
@@ -141,21 +141,21 @@
 			path = AngelHacksCaitlyn/Frameworks;
 			sourceTree = "<group>";
 		};
-		1C2A5BF11B5AEC9200E8D410 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				1C2A5BEA1B5AEC1D00E8D410 /* MapViewController.swift */,
-				1C2A5BE81B5AEBCF00E8D410 /* TabBarViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
 		1C2A5BF41B5AF3AE00E8D410 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				1C2A5BF51B5AF3C500E8D410 /* PinAnnotation.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		1C2A5BF71B5AF8F600E8D410 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A5BE81B5AEBCF00E8D410 /* TabBarViewController.swift */,
+				1C2A5BEA1B5AEC1D00E8D410 /* MapViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		9D1FBC6A62694ECBE1A1A0FB /* Pods */ = {
