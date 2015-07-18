@@ -60,7 +60,6 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, UISearchBa
             view = dequeuedView
         } else {
             view = MKPinAnnotationView(annotation: annotation1, reuseIdentifier:identifier)
-            view.canShowCallout = true
             view.calloutOffset = CGPoint(x: -5, y: 5)
             view.pinColor = MKPinAnnotationColor.Purple
             
